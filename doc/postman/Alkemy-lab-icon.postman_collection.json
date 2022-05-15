@@ -1,0 +1,17 @@
+{
+	"info": {
+		"_postman_id": "bde55518-7c4d-4d06-83d8-390897d31a2c",
+		"name": "Alkemy-lab-icon",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "continentes",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

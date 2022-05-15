@@ -32,6 +32,9 @@ public class PaisEntity {
 	@JoinColumn(name = "continente__id", insertable = false, updatable = false)
 	private ContinenteEntity continente;
 	
+	@Column(name = "continente_id", nullable = false)
+	private Long continenteId;
+	
 	@ManyToMany(
 			cascade = {
 					CascadeType.PERSIST,
